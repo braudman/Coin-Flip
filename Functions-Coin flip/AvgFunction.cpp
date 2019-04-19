@@ -1,7 +1,7 @@
  /****************************************************************************
  * AUTHOR	     : Stephen Braudo
- * STUDENT ID    : 1053220
- * Lab# 2		 : Coin Flip
+ * STUDENT ID        : 1053220
+ * Lab# 2	     : Coin Flip
  * CLASS	     : CS1B
  * SECTION	     : MW: 6:30pm
  * DUE DATE	     : 09/6/17
@@ -23,14 +23,13 @@
  * 	 Returns  ==> nothing
  **************************************************************************/
 
-float AvgFunction(
-		           int headCount,
-				   int totalHeads)
+float AvgFunction(int headCount,
+		  int totalHeads)
 {
 	   float avg;
 
 	   cout << setprecision(2);
-		avg = (float(headCount) / totalHeads)* 100;
+	   avg = (float(headCount) / totalHeads)* 100;
 
 
 		return avg;
