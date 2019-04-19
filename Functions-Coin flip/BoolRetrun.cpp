@@ -1,7 +1,7 @@
  /****************************************************************************
  * AUTHOR	     : Stephen Braudo
- * STUDENT ID    : 1053220
- * Lab# 2		 : Coin Flip
+ * STUDENT ID        : 1053220
+ * Lab# 2	     : Coin Flip
  * CLASS	     : CS1B
  * SECTION	     : MW: 6:30pm
  * DUE DATE	     : 09/6/17
@@ -30,8 +30,8 @@
  * 	 Returns  ==> nothing
  **************************************************************************/
 void BoolReturn(int &coinFlip,
-		        int &coinCount,
-				int &totalHeads)
+	        int &coinCount,
+	        int &totalHeads)
 {
 
 	srand (time(NULL));
