@@ -1,7 +1,7 @@
  /****************************************************************************
  * AUTHOR	     : Stephen Braudo
- * STUDENT ID    : 1053220
- * Lab# 2		 : Coin Flip
+ * STUDENT ID        : 1053220
+ * Lab# 2	     : Coin Flip
  * CLASS	     : CS1B
  * SECTION	     : MW: 6:30pm
  * DUE DATE	     : 09/6/17
@@ -38,8 +38,8 @@ int main ()
 	int    coinFlip;	 //CALC & OUT - the number needed to exit the program
 	int    coinCount;    //CALC & OUT - the number of tosses in total
 	int    totalHeads;   //CALC & OUT - total number of heads in a run achieved
-    float  avgHeads;	 //CALC - variable used to assign the average
-    srand  (time(NULL)); //CALC - initiates a random integer
+        float  avgHeads;	 //CALC - variable used to assign the average
+        srand  (time(NULL)); //CALC - initiates a random integer
 
 
 
@@ -50,7 +50,7 @@ int main ()
 	 **************************************************************************/
 	PrintHeader("Coin Flip", 'L', 2);
 
-     UserInfo(name, gender, invalid);
+        UserInfo(name, gender, invalid);
 
 
 	/***************************************************************************
@@ -61,7 +61,7 @@ int main ()
 	 **************************************************************************/
 	BoolReturn (coinCount, coinFlip, totalHeads);
 
-	 avgHeads = AvgFunction(totalHeads , coinCount );
+	avgHeads = AvgFunction(totalHeads , coinCount );
 
 
 	/***************************************************************************
