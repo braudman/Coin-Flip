@@ -1,7 +1,7 @@
  /****************************************************************************
  * AUTHOR	     : Stephen Braudo
- * STUDENT ID    : 1053220
- * Lab# 2		 : Coin Flip
+ * STUDENT ID        : 1053220
+ * Lab# 2	     : Coin Flip
  * CLASS	     : CS1B
  * SECTION	     : MW: 6:30pm
  * DUE DATE	     : 09/6/17
@@ -24,21 +24,20 @@
 * POST-CONDITIONS
 * ==> Returns nothing - This function will output the class heading.
 *************************************************************************/
-void PrintHeader(string asName,  // IN - assignment Name – used for output
-				 char asType,    // IN - assignment type
-				 	 	 	 	 //    - (LAB or ASSIGN) – used for output
-				 int asNum)  	 // IN – assign. Number  - used for output
+void PrintHeader(string asName,  // IN - assignment Name â€“ used for output
+		 char   asType,  // IN - assignment type
+		 int    asNum)   // IN â€“ assign. Number  - used for output
 {
 	cout << left;
 	cout << "***********************************************************"
-		 <<	"**\n";
+	     <<	"**\n";
 	cout << "*  PROGRAMMED BY : Stephen Braudo\n";
 	cout << "*  " << setw(14) << "STUDENT ID" << ": 1053220\n";
 	cout << "*  " << setw(14) << "CLASS" << ": CS1B\n";
 	cout << "*  " << setw(14) << "SECTION" << ": MW: 6:30\n";
 	cout << "*  ";
 	//	PROCESSING - This will adjust setws and format appropriately
-	//				 based on if this is a lab 'L' or assignment
+	//		     based on if this is a lab 'L' or assignment
 	if (toupper(asType) == 'L')
 	{
 		cout << "LAB #" << setw(9);
@@ -50,6 +49,6 @@ void PrintHeader(string asName,  // IN - assignment Name – used for output
 
 	cout << asNum << ": " << asName << endl;
 	cout << "**********************************************************"
-		 <<	"***\n\n";
+	     <<	"***\n\n";
 	cout << right;
 }
